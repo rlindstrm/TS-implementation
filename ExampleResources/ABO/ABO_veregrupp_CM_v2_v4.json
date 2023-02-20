@@ -1,0 +1,88 @@
+{
+  "resourceType": "ConceptMap",
+  "title": "ABO veregrupp v2-v4",
+  "meta": {
+    "profile": [
+      "http://ontoserver.csiro.au/fhir/StructureDefinition/minimalconceptmap"
+    ],
+    "versionId": "1",
+    "lastUpdated": "2023-02-16T17:24:32.234+00:00"
+  },
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "andmekorraldus@tehik.ee"
+        }
+      ],
+      "name": "Rutt Lindström"
+    }
+  ],
+  "group": [
+    {
+      "element": [
+        {
+          "code": "1",
+          "target": [
+            {
+              "code": "112144000",
+              "equivalence": "equivalent"
+            }
+          ],
+          "display": "A"
+        },
+        {
+          "code": "2",
+          "target": [
+            {
+              "code": "112149005",
+              "equivalence": "equivalent"
+            }
+          ],
+          "display": "B"
+        },
+        {
+          "code": "3",
+          "target": [
+            {
+              "code": "165743006",
+              "equivalence": "equivalent"
+            }
+          ],
+          "display": "AB"
+        },
+        {
+          "code": "4",
+          "target": [
+            {
+              "code": "58460004",
+              "equivalence": "equivalent"
+            }
+          ],
+          "display": "0"
+        }
+      ],
+      "source": "https://pub.e-tervis.ee/classifications/ABO%20veregrupp",
+      "sourceVersion": "2",
+      "target": "http://snomed.info/sct",
+      "targetVersion": "http://snomed.info/sct/11000181102/version/20221130"
+    }
+  ],
+  "url": "https://pub.e-tervis.ee/classifications/ABO%20veregrupp-v2-v4-CM",
+  "description": "Concept map between ABO Veregrupp v2 and v4",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ABO veregrupp v2-v4</h2><tt>https://pub.e-tervis.ee/classifications/ABO%20veregrupp-v2-v4-CM</tt><p>Concept map between ABO Veregrupp v2 and v4</p></div>"
+  },
+  "sourceCanonical": "https://pub.e-tervis.ee/classifications/ABO%20veregrupp-VS",
+  "targetCanonical": "https://pub.e-tervis.ee/classifications/ABO%20veregrupp-VS",
+  "version": "v1",
+  "experimental": true,
+  "date": "2023-02-16T00:00:00.000Z",
+  "publisher": "TEHIK",
+  "purpose": "Version change transition",
+  "id": "cf0b8ca5-ddae-49c4-9cbd-c76767e6e792",
+  "name": "ABO_veregrupp_v2_v4"
+}

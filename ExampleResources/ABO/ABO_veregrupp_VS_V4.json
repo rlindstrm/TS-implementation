@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ],
+    "versionId": "1",
+    "lastUpdated": "2023-02-16T17:11:41.861+00:00"
+  },
+  "url": "https://pub.e-tervis.ee/classifications/ABO%20veregrupp-VS",
+  "identifier": [
+    {
+      "value": "1.3.6.1.4.1.28284.6.2.1.29",
+      "system": "https://oidref.com/1.3.6.1.2.1.1"
+    }
+  ],
+  "version": "4",
+  "title": "ABO veregrupp",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "andmekorraldus@tehik.ee"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "112144000",
+            "display": "A veregrupp"
+          },
+          {
+            "code": "112149005",
+            "display": "B veregrupp"
+          },
+          {
+            "code": "165743006",
+            "display": "AB veregrupp"
+          },
+          {
+            "code": "58460004",
+            "display": "O veregrupp"
+          },
+          {
+            "code": "3621000181105",
+            "display": "Selguseta veregrupp"
+          }
+        ],
+        "version": "http://snomed.info/sct/11000181102/version/20221130"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ABO veregrupp</h2><tt>https://pub.e-tervis.ee/classifications/ABO%20veregrupp-VS</tt><p>Description</p></div>"
+  },
+  "name": "ABO_veregrupp",
+  "date": "2022-11-30T00:00:00.000Z",
+  "experimental": true,
+  "publisher": "TEHIK",
+  "description": "Description",
+  "id": "67bb9ece-c685-4223-8f6c-3a468d8e80a3"
+}
